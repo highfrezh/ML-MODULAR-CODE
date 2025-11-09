@@ -94,13 +94,6 @@ LOG_LEVEL=INFO
 LOG_FILE=logs/medical_cost_prediction.log
 ```
 
-## Development
-
-### Code Style
-
-This project follows [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guidelines. You can check your code using:
-
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
