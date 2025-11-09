@@ -1,0 +1,8 @@
+aiosqlite
+pandas
+sqlalchemy
+uvicorn
+fastapi[standard]
+python-multipart
+joblib
+scikit-learn
