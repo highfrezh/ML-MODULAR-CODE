@@ -40,8 +40,8 @@ A FastAPI-based web service for predicting medical insurance costs using machine
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd ML_MODULAR_CODE
+   git clone https://github.com/highfrezh/ML-MODULAR-CODE.git
+   cd ML-MODULAR-CODE
    ```
 
 2. Create and activate a virtual environment:
@@ -75,8 +75,6 @@ A FastAPI-based web service for predicting medical insurance costs using machine
 
 - `POST /api/v1/predict` - Get a prediction for medical costs
 - `POST /api/v1/retrain` - Retrain the model with new data
-- `GET /api/v1/model/info` - Get information about the current model
-- `GET /api/v1/health` - Check if the API is running
 
 ## Environment Variables
 
@@ -102,17 +100,6 @@ LOG_FILE=logs/medical_cost_prediction.log
 
 This project follows [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guidelines. You can check your code using:
 
-```bash
-flake8 .
-```
-
-### Testing
-
-To run the test suite:
-
-```bash
-pytest
-```
 
 ## License
 
